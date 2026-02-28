@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* { scrollbar-width: thin; }
+
+/* App-level utility */
+.glass {
+  @apply bg-white/5 border border-white/10 backdrop-blur rounded-2xl;
+}
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-medium transition;
+}
+.btn-primary { @apply btn bg-indigo-500 hover:bg-indigo-400 text-white; }
+.btn-ghost { @apply btn bg-white/5 hover:bg-white/10 text-slate-100 border border-white/10; }
+.btn-danger { @apply btn bg-rose-600 hover:bg-rose-500 text-white; }
+
+.input {
+  @apply w-full rounded-xl bg-white/5 border border-white/10 px-4 py-2 outline-none focus:ring-2 focus:ring-indigo-500/60;
+}
+.badge {
+  @apply inline-flex items-center rounded-full bg-white/10 border border-white/10 px-2 py-1 text-xs;
+}
+
+/* Fix native select dropdown (options are white by default in many browsers) */
+select, option {
+  background-color: rgb(2 6 23); /* slate-950 */
+  color: rgb(226 232 240);      /* slate-200 */
+}

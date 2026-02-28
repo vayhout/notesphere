@@ -1,0 +1,16 @@
+# Node
+frontend/node_modules
+frontend/dist
+frontend/.vite
+
+# .NET
+backend/**/bin
+backend/**/obj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.user
+*.suo
