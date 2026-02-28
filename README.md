@@ -11,6 +11,28 @@ A beautiful notes application with **JWT auth**, **per-user authorization**, **s
 
 ---
 
+## 🔐 Login Page
+
+![Login Page](docs/screenshots/login.png)
+
+---
+
+## 🗂 Notes Dashboard
+
+![Notes Dashboard](docs/screenshots/notes-dashboard.png)
+
+---
+
+## ✏️ Editor + Live Preview
+
+![Editor](docs/screenshots/editor.png)
+
+---
+
+## 🎭 Demo Mode (GitHub Pages)
+
+![Demo Mode](docs/screenshots/demo-mode.png)
+
 ## Quick Start (Recommended)
 
 ### 1) Start SQL Server (Docker)
